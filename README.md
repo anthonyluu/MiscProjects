@@ -2,6 +2,7 @@
 
 ## List of Projects in repository:
 - googleImageGrabber.py
+- stringReverse
 
 # Google Image Grabber
 ### General Description
@@ -11,10 +12,17 @@
 
 ### Other information
 - python
-- uses the following libraries: urllib, json
+- uses the following libraries: urllib, json, os
 
 ### TODO
 - fix up/organize code style
 - handle 404, 403, etc
 - add time of completion
 - organize downloaded files into new folder
+
+# String Reverse
+### General Description
+- This is a small java program to reverse a string inputted by the user
+
+### TODO
+- check error handling
