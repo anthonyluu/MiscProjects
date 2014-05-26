@@ -16,3 +16,5 @@
 ### TODO
 - fix up/organize code style
 - handle 404, 403, etc
+- add time of completion
+- organize downloaded files into new folder
