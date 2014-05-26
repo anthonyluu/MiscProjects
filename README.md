@@ -3,7 +3,7 @@
 ## List of Projects in repository:
 - googleImageGrabber.py
 
-# GoogleImageGrabber
+# Google Image Grabber
 ### General Description
 - This is my first small python project to help me learn the language
 - When it is run, it will prompt the user for a search term and will retrieve the data from Google
@@ -13,6 +13,6 @@
 - python
 - uses the following libraries: urllib, json
 
-# TODO
-- currently doesnt download images yet
+### TODO
 - fix up/organize code style
+- handle 404, 403, etc
