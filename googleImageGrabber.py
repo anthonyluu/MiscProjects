@@ -1,6 +1,5 @@
 import json
 import time
-import requests
 import urllib
 import urllib.request
 
@@ -8,7 +7,6 @@ def search_link(prompt):
 	search = input(prompt)
 	return search
 	
-def download_files(file_name):
 	
 	
 	
@@ -38,5 +36,8 @@ while i < json_results_size:
 
 while x < json_results_size:
 	print (url_download_links[x])
+	downloadFile = urllib.request.urlopen(url_download_links[x]);
+	with open("img" + str(x) + ".jpg", "wb") as code:
+		code.write(downloadFile.read());
 	x += 1
 
